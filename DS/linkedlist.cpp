@@ -80,7 +80,7 @@ cin>>n;
     create(head,n);
     print(head);
     //  cout<<"\nDo you wnat to insert a number 1/0: ";
-     cout<<"\nDo you want to delete a number 1/0: ";
+    //  cout<<"\nDo you want to delete a number 1/0: ";
     int c;
     cin>>c;
     if(c==1){
@@ -91,11 +91,11 @@ cin>>n;
         // print(head);
 
 
-         cout<<"Enter the place which is to be deleted: ";
-        int x;
-        cin>>x;
-    head=deletel(head,x,n);
-        print(head);    
+    //      cout<<"Enter the place which is to be deleted: ";
+    //     int x;
+    //     cin>>x;
+    // head=deletel(head,x,n);
+    //     print(head);    
     }
     else{
         cout<<"Thanks for entry :)";
